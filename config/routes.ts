@@ -20,6 +20,12 @@ export default [
     component: './Welcome',
   },
   {
+    name: '个人设置',
+    icon: 'SettingOutlined',
+    path: '/accountsettings',
+    component: './AccountSettings',
+  },
+  {
     path: '/admin',
     name: '管理页',
     icon: 'crown',
@@ -54,17 +60,18 @@ export default [
     component: './DashboardAnalysis',
   },
   {
-    icon: 'PieChartOutlined',
+    icon: 'DashboardOutlined',
     name: '仪表盘',
     path: '/dashboardmonitor',
     component: './DashboardMonitor',
   },
   {
-    name: '分步表单',
+    name: '新增数据集云盘库',
     icon: 'CloudUploadOutlined',
     path: '/formstepform',
     component: './FormStepForm',
-  }, //   { icon: 'smile', name: '首页', path: '/protal', component: './Home' },
+  },
+  //   { icon: 'smile', name: '首页', path: '/protal', component: './Home' },
   {
     component: './404',
   },

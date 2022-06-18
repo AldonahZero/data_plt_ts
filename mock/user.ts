@@ -44,13 +44,14 @@ export default {
     res.send({
       success: true,
       data: {
-        name: 'Serati Ma',
-        avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
+        name: 'Aldno',
+        avatar: 'F71727CCECAC31AC401188AC684B2DA8.png',
         userid: '00000001',
-        email: 'antdesign@alipay.com',
-        signature: '海纳百川，有容乃大',
-        title: '交互专家',
-        group: '蚂蚁金服－某某某事业群－某某平台部－某某技术部－UED',
+        email: 'i9980307@vip.qq.com',
+        signature: '这个人很帅,没有留下签名',
+        title: '全栈专家',
+        group:
+          '头戴三叉束发紫金冠，体挂西川红棉百花袍，身披兽面吞头连环铠，腰系勒甲玲珑狮蛮带；弓箭随身，手持画戟，坐下嘶风赤兔马！',
         tags: [
           {
             key: '0',
@@ -59,22 +60,6 @@ export default {
           {
             key: '1',
             label: '专注设计',
-          },
-          {
-            key: '2',
-            label: '辣~',
-          },
-          {
-            key: '3',
-            label: '大长腿',
-          },
-          {
-            key: '4',
-            label: '川妹子',
-          },
-          {
-            key: '5',
-            label: '海纳百川',
           },
         ],
         notifyCount: 12,
