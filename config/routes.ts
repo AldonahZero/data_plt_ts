@@ -20,6 +20,18 @@ export default [
     component: './Welcome',
   },
   {
+    icon: 'AreaChartOutlined',
+    name: '数据分析',
+    path: '/dashboardanalysis',
+    component: './DashboardAnalysis',
+  },
+  {
+    icon: 'DashboardOutlined',
+    name: '仪表盘',
+    path: '/dashboardmonitor',
+    component: './DashboardMonitor',
+  },
+  {
     name: '个人设置',
     icon: 'SettingOutlined',
     path: '/accountsettings',
@@ -43,34 +55,47 @@ export default [
       },
     ],
   },
-  {
-    name: '查询表格',
-    icon: 'table',
-    path: '/list',
-    component: './TableList',
-  },
+
   {
     path: '/',
     redirect: '/dashboardmonitor',
   },
-  {
-    icon: 'AreaChartOutlined',
-    name: '数据分析',
-    path: '/dashboardanalysis',
-    component: './DashboardAnalysis',
-  },
-  {
-    icon: 'DashboardOutlined',
-    name: '仪表盘',
-    path: '/dashboardmonitor',
-    component: './DashboardMonitor',
-  },
+
   {
     name: '新增数据集云盘库',
     icon: 'CloudUploadOutlined',
     path: '/formstepform',
     component: './FormStepForm',
   },
+  {
+    name: '查询数据集云盘库',
+    icon: 'CloudServerOutlined',
+    path: '/list',
+    component: './TableList',
+  },
+  {
+    icon: 'table',
+    path: '/list',
+    component: './TableList',
+  },
+  {
+    path: '/interfere',
+    name: '模型预测',
+    icon: 'CarOutlined',
+    routes: [
+      {
+        icon: 'VideoCameraOutlined',
+        name: '单桢预测',
+        path: '/index.html',
+      },
+      {
+        icon: 'çVideoCameraAddOutlined',
+        name: '连续桢预测',
+        path: 'https://webviz.io/app/?demo=&seek-to=1490150279.575225317',
+      },
+    ],
+  },
+
   //   { icon: 'smile', name: '首页', path: '/protal', component: './Home' },
   {
     component: './404',
