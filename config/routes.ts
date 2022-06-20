@@ -86,7 +86,7 @@ export default [
       {
         icon: 'VideoCameraOutlined',
         name: '单桢预测',
-        path: '/index.html',
+        path: 'http://127.0.0.1:8000/frontend/index.html',
       },
       {
         icon: 'çVideoCameraAddOutlined',
